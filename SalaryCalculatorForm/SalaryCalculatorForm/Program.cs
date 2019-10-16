@@ -16,7 +16,7 @@ namespace SalaryCalculatorForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VehicleUi());
+            Application.Run(new RefrigeratorUi());
         }
     }
 }

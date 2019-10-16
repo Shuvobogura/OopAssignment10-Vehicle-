@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Refrigerator.cs" />
+    <Compile Include="RefrigeratorUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RefrigeratorUi.Designer.cs">
+      <DependentUpon>RefrigeratorUi.cs</DependentUpon>
+    </Compile>
     <Compile Include="SalaryCalculator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +78,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RefrigeratorUi.resx">
+      <DependentUpon>RefrigeratorUi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SalaryCalculator.resx">
       <DependentUpon>SalaryCalculator.cs</DependentUpon>
     </EmbeddedResource>
